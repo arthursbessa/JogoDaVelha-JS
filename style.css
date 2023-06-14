@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #212529;
+  color: #f1f5f9;
+  font-family: "Ubuntu", sans-serif;
+}
+
+main {
+  display: block;
+  margin: 0 auto;
+  max-width: 70rem;
+  padding: 0 1.5rem 2.5rem;
+  position: relative;
+}
+
+header {
+  font-size: 25px;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+#div-inputs {
+  display: flex;
+  justify-content: space-between;
+}
+
+.div-label {
+  font-size: 20px;
+  text-align: center;
+}
+
+.nameInput {
+  margin-top: 15px;
+  width: 95%;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 3px;
+  text-align: center;
+}
+
+#btnStart {
+  cursor: pointer;
+  width: 15%;
+  height: 45px;
+  align-self:flex-end;
+  font-size: 1.2rem;
+  text-align: center;
+  border: none;
+  border-radius: 10px;
+}
+
+#btnStart:hover {
+  background-color: #a6b8a7;
+}
+
+#div-jogo {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 5rem;
+  padding-bottom: 4rem;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.nomeOculto {
+  color: #212529;
+}
+
+.nomeSelecionado {
+  color: white;
+}
+
+#Ganhador {
+  color: #008000;
+  font-weight: bold;
+  text-align: center;
+  font-size: 30px;
+}
+
+nome {
+  color: white;
+}
+
+#Velha {
+  color: orange;
+  font-weight: bold;
+  text-align: center;
+  font-size: 30px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    font-size: 100px;
+    font-weight: bold;
+    border: 1px solid black;
+    cursor: pointer;
+}
+

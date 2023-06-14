@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+
+  <title>Jogo da Velha</title>
+
+  <link rel="stylesheet" href="style.css">
+  <script src="./main.js" defer></script>
+</head>
+
+<body>
+  
+  <main>
+    
+    <header>
+      <h1>Jogo da Velha</h1>
+    </header>
+
+    <div id="div-inputs">
+      <div class="div-label">
+        <label id="lblPlayer1" for="player1">Jogador 1</label>
+        <input id="player1" class="nameInput" name="player1" type="text" maxlength="10">
+      </div>
+
+      <button id="btnStart" type="button">Jogar</button>
+      
+      <div class="div-label">
+        <label id="lblPlayer1" for="player1">Jogador 2</label>
+        <input id="player2" class="nameInput" name="player2" type="text" maxlength="10">
+      </div> 
+  
+    </div>
+  
+    <div id="div-jogo"></div>
+
+    <div id="div-vitoria"></div>
+  
+  </main>
+  
+</body>
+</html>
